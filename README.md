@@ -1,2 +1,2 @@
-# FreeCodeCamp JavaScript Algorithms and Data Structures Course Lesson 1
+# Dragon Slayer RPG 
 https://jasonmdyer.github.io/dragon-slayer/
