@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
 
 * {
     font-family: Roboto;
@@ -6,47 +8,55 @@
 
 body {
     background-image: url(dsbackground.jpg);
-    height: 100%;
+    background-size: 100vw 100vh;
     margin: 0;
+    padding-top: 150px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
   
   #text {
+    background-color: rgba(255,255,255,0.2);
     color: #ffffff;
     padding: 50px;
     margin-left: -5px;
     margin-right: -5px;
     border-radius: 5px;
+    margin-top: 20px;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
   }
   
   #game {
+    background-color: rgba(255,255,255,0.2);
     max-width: 700px;
     max-height: 200px;
-    color: #ffffff;
+    color: #000000;
     margin: 100px auto 0px;
-    padding: 5px;
+    padding: 50px 20px 0px;
     border-radius: 10px;
   }
   
   #controls,
   #stats {
-    border: 1px solid #000000;
     padding-top: 35px;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
   }
   
   #monsterStats {
+    background-color: rgba(255,255,255,0.2);
     padding-top: 20px;
     padding-bottom: 20px;
     margin: -5px;
-    color: #ffffff;
-    background-color: #000000;
+    color: gold;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 10px;
+
   }
   
   .stat {
@@ -55,16 +65,16 @@ body {
   }
   
   button {
+    background-color: rgb(0, 0, 0);
     cursor: pointer;
     color: #ffffff;
-    background-color: #000000;
-    background-image: linear-gradient(#ff0000, #000000);
     border: none;
+    border-radius: 10px;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
-    font-size: 15px;
+    font-size: 25px;
     transition: 1s all;
   
   }
@@ -88,6 +98,8 @@ body {
   }
 
   .welcome {
-    font-size: 40px;
-    font-weight: 600;
+    font-family: "Jacquard 12";
+    color: red;
+    font-size: 60px;
+    font-weight: 100;
   }
