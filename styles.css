@@ -10,7 +10,7 @@ body {
     background-image: url(dsbackground.jpg);
     background-size: 100vw 100vh;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 30px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
